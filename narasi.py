@@ -327,11 +327,11 @@ st.write(
     untuk kedepannya.
     ''')
 st.write(
-    '''Perkembangan keamanan internet di Indonesia pada aspek penyediaan Secure Server sudah sangan baik. Namun
+    '''Perkembangan keamanan internet di Indonesia pada aspek penyediaan Secure Server sudah sangat baik. Namun
     sama halnya dengan kapasitas Bandwidth, penggunaan Bandwidth yang besar di Indonesia menandakan banyaknya
     transaksi online yang terjadi dibandingkan dengan negara lain. Tren positif dari penyediaan Secure Server
     harus dijaga agar warga Indonesia merasa aman dalam melakukan kegiatan ekonomi digital sehingga mendorong
-    minat transaksi.'''
+    minat transaksi digital.'''
 )
 st.markdown('##### <u>Catatan</u>', unsafe_allow_html=True)
 st.markdown(
