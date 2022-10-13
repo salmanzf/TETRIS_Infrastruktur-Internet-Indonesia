@@ -34,7 +34,7 @@ fig1.update_layout(
 )
 st.plotly_chart(fig1)
 #----------------------------------------
-st.caption('<center>Source: Speedtest by Ooklaa<a href=(https://www.speedtest.net/global-index)>[3]</a></center>', unsafe_allow_html=True)
+st.caption('<center>Source: Speedtest by Ooklaa<a href=https://www.speedtest.net/global-index>[3]</a></center>', unsafe_allow_html=True)
 st.write('')
 st.write('89.03% pengguna internet di Indonesia menggunakan Handphone/Tablet[[1]](https://apjii.or.id/survei). Menurut hasil pengukuran dari Ookla (Speedtest) pada Agustus 2022, Indonesia memiliki kecepatan median terlambat ke-2 setelah Kamboja pada kecepatan koneksi Handphone. Kecepatan internet layanan Fixed Broadband (Internet Kabel) di Indonesia pun tidak berada di posisi yang baik.')
 st.write('Menurut [KOMINFO](https://aqi.co.id/en/news/duduki-ranking-92-kenapa-internet-di-indonesia-lelet#:~:text=Geographical%20conditions%20in%20Indonesia%20are,failure%20in%20building%20communication%20infrastructure.)[4], hal ini disebabkan kondisi geografis yang sulit dan didominasinya layanan prepaid dengan harga layanan yang murah.')
