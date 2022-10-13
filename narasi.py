@@ -162,7 +162,7 @@ st.write('')
 st.write('Ternyata walaupun penggunaan data Indonesia dua kali lipat lebih banyak dari Malaysia (28% - 12.6%), Indonesia masih memiliki jumlah kapasitas Bandwidth yang lebih sedikit (13.8% - 16.4%).')
 
 #SECURE SERVER
-st.write('### Tingkat Kemanan Internet di Indonesia')
+st.write('### Tingkat Keamanan Internet di Indonesia')
 st.write('Dalam menulusuri website-website di Internet, belum tentu halaman yang kita klik sudah terlindungi dari pihak-pihak luar yang mencoba mengambil data-data pribadi (hacking, phishing, snooping). Setiap website yang sudah dilandasi Secure Server memastikan transaksi online-nya terlindungi.')
 #Time Series Secure Server---------------------------
 mobile_inet = pd.read_csv('mobile_subs.csv')
