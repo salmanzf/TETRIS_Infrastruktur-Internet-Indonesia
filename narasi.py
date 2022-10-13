@@ -292,7 +292,7 @@ fig6.update_layout(
         'y':0.95
     }
 )
-fig6.update_yaxes(title_text="Secure Server Growth (%)")
+fig6.update_yaxes(title_text="Secure Server per 1 Million People")
 fig6.update_xaxes(title_text='Year', showgrid=False)
 st.plotly_chart(fig6)
 #---------------------------------------------------------
