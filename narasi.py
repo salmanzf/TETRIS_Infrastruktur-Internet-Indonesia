@@ -37,8 +37,8 @@ st.plotly_chart(fig1)
 #----------------------------------------
 st.caption('<center>Source: Speedtest by Ooklaa<a href=https://www.speedtest.net/global-index>[3]</a></center>', unsafe_allow_html=True)
 st.write('')
-st.write('89.03% pengguna internet di Indonesia menggunakan Handphone/Tablet[[1]](https://apjii.or.id/survei). Menurut hasil pengukuran dari Ookla (Speedtest) pada Agustus 2022, Indonesia memiliki kecepatan median terlambat ke-2 setelah Kamboja pada kecepatan koneksi Handphone. Kecepatan internet layanan Fixed Broadband (Internet Kabel) di Indonesia pun tidak berada di posisi yang baik.')
-st.write('Menurut [KOMINFO](https://aqi.co.id/en/news/duduki-ranking-92-kenapa-internet-di-indonesia-lelet#:~:text=Geographical%20conditions%20in%20Indonesia%20are,failure%20in%20building%20communication%20infrastructure.)[4], hal ini disebabkan kondisi geografis yang sulit dan didominasinya layanan prepaid dengan harga layanan yang murah.')
+st.write('89.03% pengguna internet di Indonesia menggunakan Handphone/Tablet[[1]](https://apjii.or.id/survei). Menurut hasil pengukuran dari Ookla (Speedtest) pada Agustus 2022, **Indonesia memiliki kecepatan median terlambat ke-2 setelah Kamboja** pada kecepatan koneksi Handphone. Kecepatan internet layanan Fixed Broadband (Internet Kabel) di Indonesia pun tidak berada di posisi yang baik.')
+st.write('Menurut [KOMINFO](https://aqi.co.id/en/news/duduki-ranking-92-kenapa-internet-di-indonesia-lelet#:~:text=Geographical%20conditions%20in%20Indonesia%20are,failure%20in%20building%20communication%20infrastructure.)[4], hal ini disebabkan **kondisi geografis yang sulit dan didominasinya layanan prepaid** dengan harga layanan yang murah.')
 #Prepaid Chart---------------------------
 total_subs = pd.read_csv('mobile_subs.csv')
 prepaid = pd.read_csv('prepaid_mobile_subscription.csv')
@@ -160,7 +160,7 @@ st.caption(
     & Bandwidth Usage Datahub ITU<a href=https://datahub.itu.int/data/?i=242>[8]</a></center>''',
     unsafe_allow_html=True)
 st.write('')
-st.write('Ternyata walaupun penggunaan data Indonesia dua kali lipat lebih banyak dari Malaysia (28% - 12.6%), Indonesia masih memiliki jumlah kapasitas Bandwidth yang lebih sedikit (13.8% - 16.4%).')
+st.write('Ternyata walaupun **penggunaan data Indonesia dua kali lipat lebih banyak dari Malaysia (28% - 12.6%)**, Indonesia masih memiliki **jumlah kapasitas Bandwidth yang lebih sedikit (13.8% - 16.4%).**')
 
 #SECURE SERVER
 st.write('### Tingkat Keamanan Internet di Indonesia')
@@ -258,7 +258,7 @@ st.caption(
     & Secure Server Data Worldbank<a href=https://data.worldbank.org/indicator/IT.NET.SECR?locations=ID>[9]</a></center>''',
     unsafe_allow_html=True)
 st.write('')
-st.write('Karena [kebijakan KOMINFO di akhir tahun 2017](https://nuscri.org/media/static/images/thumbnail-pdf/WCBAUG28SEP032018_PTIGjpr.pdf)[10], jumlah Mobile Subscriber turun drastis. Ini wujud dari KOMINFO untuk mengurangi jumlah nomor bayangan dalam melakukan modus penipuan. Terlebih lagi laju peningkatan Secure Server di Indonesia jauh melampaui jumlah pertumbuhan Mobile Subscriber yang merupakan indikator baik.')
+st.write('Karena [kebijakan KOMINFO di akhir tahun 2017](https://nuscri.org/media/static/images/thumbnail-pdf/WCBAUG28SEP032018_PTIGjpr.pdf)[10], jumlah Mobile Subscriber turun drastis. Ini wujud dari KOMINFO untuk mengurangi jumlah nomor bayangan dalam melakukan modus penipuan. Terlebih lagi **laju peningkatan Secure Server di Indonesia jauh melampaui jumlah pertumbuhan Mobile Subscriber** yang merupakan indikator baik.')
 
 server_1mil = pd.read_csv('secure_internet_server_per1mil.csv')
 
@@ -302,7 +302,7 @@ st.caption(
     <a href=https://data.worldbank.org/indicator/IT.NET.SECR.P6?locations=ID>[11]</a></center>''',
     unsafe_allow_html=True)
 st.write('')
-st.write('Dalam segi infrastruktur kemanan, Singapura jauh di atas negara ASEAN lainnya. Walaupun jumlah perkembangan Secure Server  di Indonesia akhir-akhir ini melesat, begitupun juga di beberapa negara ASEAN lainnya. Ternyata dalam segi infrastruktur keamanan pun Indonesia masih butuh ditingkatkan.')
+st.write('Dalam segi infrastruktur kemanan, Singapura jauh di atas negara ASEAN lainnya. Walaupun jumlah perkembangan Secure Server  di Indonesia akhir-akhir ini melesat, begitupun juga di beberapa negara ASEAN lainnya. Ternyata dalam segi infrastruktur keamanan pun Indonesia masih bisa ditingkatkan lebih baik lagi.')
 
 #PENUTUP
 st.write('### Jadi, Bagaimanakah Kesiapan Infrastruktur di Indonesia?')
