@@ -5,7 +5,7 @@ import seaborn as sns
 import altair as alt
 import plotly.express as px
 
-st.markdown("<h1 style='text-align: center; color: white;'>Kesiapan Infrastruktur Internet Indonesia Menghadapi Perkembangan Ekonomi Digital Pasca COVID-19</h1>", unsafe_allow_html=True)
+
 st.markdown("<center><title>Kesiapan Infrastruktur Internet Indonesia Menghadapi Perkembangan Ekonomi Digital Pasca COVID-19</title></center>", unsafe_allow_html=True)
 st.write("Di akhir tahun 2020, tingkat penetrasi internet di Indonesia mencapai 73.7%[[1]](https://apjii.or.id/survei). Pandemi COVID-19 mendorong untuk mengubah cara hidup manusia melalui digitalisasi (sekolah, sistem pembayaran, berdagang, dll..).  Namun, menurut berita dari [Kompas](https://money.kompas.com/read/2022/02/23/153200926/ini-beberapa-hambatan-ekonomi-digital-di-indonesia)[2], Indonesia masih belum memiliki kapabilitas dalam segi intrastruktur yang baik untuk memasuki era digital, apakah benar?")
 
