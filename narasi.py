@@ -321,8 +321,10 @@ st.write('### Apa yang Bisa Ditingkatkan Untuk Indonesia Dalam Mempersiapkan Eko
 st.write(
     '''Dalam meningkatkan kualitas internet pada kategori Mobile, Indonesia memerlukan investasi ke teknologi
     baru bernama 5G. Hal ini bisa dilihat bahwa pada [coverage layanan 5G di Indonesia](https://www.nperf.com/en/map/5g)[12]
-    masih sangat minim. Penulis juga mengharapkan provider jaringan Fixed Broadband (fiber optik) di Indonesia
-    benar-benar mengimplementasikan paket Unlimited seseungguhnya, dimana provider tidak mengurangi kecepatan internet pelanggan
+    masih sangat minim. Menurut Oxford Business Group[[13]](https://oxfordbusinessgroup.com/analysis/top-speed-infrastructure-building-continues-industry-players-anticipate-5g-rollout-and-updated-data),
+    5G diprediksikan bisa menambahkan revenue secara keseluruhan (6%-9%) sebelum 2025. Walaupun perangkat dari 5G memang mahal, menurut dosen ITB [[14]](https://www.itb.ac.id/news/read/57925/home/indonesia-is-ready-to-implement-5g)
+    pembangunan infrastruktur 5G bisa dibangun didaerah urban karena daya belinya sudah mencukupi. Penulis juga mengharapkan provider jaringan Fixed Broadband
+    (fiber optik) di Indonesia benar-benar mengimplementasikan paket Unlimited seseungguhnya, dimana provider tidak mengurangi kecepatan internet pelanggan
     ketika sudah mencapai penggunaan Bandwidth tertentu.'''
 )
 st.write(
