@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import altair as alt
 import plotly.express as px
+import plotly.io as pio
 
 st.markdown("<h1 style='text-align: center;'>Kesiapan Infrastruktur Internet Indonesia Menghadapi Perkembangan Ekonomi Digital Pasca COVID-19</h1>", unsafe_allow_html=True)
 
@@ -36,7 +37,7 @@ fig1.update_layout(
         'y':0.9,
     }
 )
-st.plotly_chart(fig1)
+st.plotly_chart(fig1, use_container_width=True)
 #----------------------------------------
 st.caption('<center>Source: Speedtest by Ooklaa<a href=https://www.speedtest.net/global-index>[3]</a></center>', unsafe_allow_html=True)
 st.write('')
@@ -71,7 +72,7 @@ fig2.update_layout(
         'y':0.9
     }
 )
-st.plotly_chart(fig2)
+st.plotly_chart(fig2, use_container_width=True)
 #---------------------------------------------
 st.caption(
     '''<center>Source: Mobile Subsciber Data Worldbank<a href=https://data.worldbank.org/indicator/IT.CEL.SETS?locations=ID>
@@ -122,7 +123,7 @@ fig3.update_layout(
         'y':0.9
     }
 )
-st.plotly_chart(fig3)
+st.plotly_chart(fig3, use_container_width=True)
 #---------------------------------------------------------
 st.caption(
     '''<center>Source: Bandwidth Capacity Datahub ITU<a href=https://datahub.itu.int/data/?i=19255>[7]</a>
@@ -158,7 +159,7 @@ fig4.update_layout(
     # Add annotations in the center of the donut pies.
     annotations=[dict(text='Capacity', x=0.15, y=0.5, font_size=20, showarrow=False),
                  dict(text='Usage', x=0.83, y=0.5, font_size=20, showarrow=False)])
-st.plotly_chart(fig4)
+st.plotly_chart(fig4, use_container_width=True)
 #-------------------------------------------------
 st.caption(
     '''<center>Source: Bandwidth Capacity Datahub ITU<a href=https://datahub.itu.int/data/?i=19255>[7]</a>
@@ -256,7 +257,7 @@ fig5.update_xaxes(
 fig5.update_yaxes(showgrid=False)
 fig5.update_yaxes(title_text="Mobile Susbcriber Growth Rate (%)", secondary_y=False)
 fig5.update_yaxes(title_text="Secure Server Growth Rate (%)", secondary_y=True)
-st.plotly_chart(fig5)
+st.plotly_chart(fig5, use_container_width=True)
 #-------------------------------------------------------
 st.caption(
     '''<center>Source: Mobile Subsciber Data Worldbank<a href=https://data.worldbank.org/indicator/IT.CEL.SETS?locations=ID>[5]</a>
@@ -300,7 +301,7 @@ fig6.update_layout(
 )
 fig6.update_yaxes(title_text="Secure Server per 1 Million People")
 fig6.update_xaxes(title_text='Year', showgrid=False)
-st.plotly_chart(fig6)
+st.plotly_chart(fig6, use_container_width=True)
 #---------------------------------------------------------
 st.caption(
     '''<center>Source: Secure Internet Server (per 1 million people) Data Worldbank
@@ -321,10 +322,8 @@ st.write('### Apa yang Bisa Ditingkatkan Untuk Indonesia Dalam Mempersiapkan Eko
 st.write(
     '''Dalam meningkatkan kualitas internet pada kategori Mobile, Indonesia memerlukan investasi ke teknologi
     baru bernama 5G. Hal ini bisa dilihat bahwa pada [coverage layanan 5G di Indonesia](https://www.nperf.com/en/map/5g)[12]
-    masih sangat minim. Menurut Oxford Business Group[[13]](https://oxfordbusinessgroup.com/analysis/top-speed-infrastructure-building-continues-industry-players-anticipate-5g-rollout-and-updated-data),
-    5G diprediksikan bisa menambahkan revenue secara keseluruhan (6%-9%) sebelum 2025. Walaupun perangkat dari 5G memang mahal, menurut dosen ITB [[14]](https://www.itb.ac.id/news/read/57925/home/indonesia-is-ready-to-implement-5g)
-    pembangunan infrastruktur 5G bisa dibangun didaerah urban karena daya belinya sudah mencukupi. Penulis juga mengharapkan provider jaringan Fixed Broadband
-    (fiber optik) di Indonesia benar-benar mengimplementasikan paket Unlimited seseungguhnya, dimana provider tidak mengurangi kecepatan internet pelanggan
+    masih sangat minim. Penulis juga mengharapkan provider jaringan Fixed Broadband (fiber optik) di Indonesia
+    benar-benar mengimplementasikan paket Unlimited seseungguhnya, dimana provider tidak mengurangi kecepatan internet pelanggan
     ketika sudah mencapai penggunaan Bandwidth tertentu.'''
 )
 st.write(
